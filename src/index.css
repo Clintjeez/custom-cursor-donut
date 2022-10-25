@@ -41,3 +41,13 @@ nav{
   text-decoration: underline;
   font-style: italic;
 }
+
+.hero-container{
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+.hero-container h1{
+  font-size: 90px;
+  font-weight: 700;
+  margin: 0px;
+}
