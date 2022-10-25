@@ -1,6 +1,10 @@
+import React from "react";
+import CustomCursor from "./components/CustomCursor/CustomCursor";
+
 const App = () => {
   return (
-    <section>
+    <section className="container">
+      <CustomCursor />
       {/* this should have been a component */}
       <nav>
         <div className="brand">
