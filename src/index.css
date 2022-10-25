@@ -22,3 +22,22 @@ code {
   width: 95%;
   margin: auto;
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.brand{
+  font-style: italic;
+}
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li{
+  text-decoration: underline;
+  font-style: italic;
+}
